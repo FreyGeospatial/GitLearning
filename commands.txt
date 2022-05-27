@@ -1,0 +1,9 @@
+Some useful commands:
+- git branch (current branch is starred)
+- git switch <branch> (alternative to git checkout <branch>)
+- git add, git commit -m "<message here>"
+- git commit --amend "<message here>" (amends most recent commit message, ?if not pushed to remote?)
+- git cherry-pick
+- git config --list --show-origin --show-scope
+- git log <branch>..<branch>
+- git log --graph --oneline --all
