@@ -7,3 +7,4 @@ Some useful commands:
 - git config --list --show-origin --show-scope
 - git log <branch>..<branch>
 - git log --graph --oneline --all
+- git reset <file> (unstage a file if not yet committed)
