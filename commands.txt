@@ -8,3 +8,4 @@ Some useful commands:
 - git log <branch>..<branch>
 - git log --graph --oneline --all
 - git reset <file> (unstage a file if not yet committed)
+- git stash, git stash apply (first, git add a file. then, git stash to "save" uncommited changes. switch branches and do what you gotta do. use git stash apply in desired branch to bring back changes)
