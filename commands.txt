@@ -3,7 +3,7 @@ Some useful commands:
 - git switch <branch> (alternative to git checkout <branch>)
 - git add, git commit -m "<message here>"
 - git commit --amend -m "<message here>" (amends most recent commit message, ?if not pushed to remote?)
-- git cherry-pick
+- git cherry-pick <SHA> (brings standalone commit from one branch into current branch. use -x to keep same commit hash This brings along commit message but not notes).
 - git config --list --show-origin --show-scope
 - git log <branch>..<branch>
 - git log --graph --oneline --all
