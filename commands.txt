@@ -12,4 +12,4 @@ Some useful commands:
 - git rebase -i <commit id> (interactive rebase. allows you to move, consolidate, reword, etc commits from remote or other branches. can bring in commits from elsewhere)
 - git clone <repo url>, git clone -b <branch> <repo url>
 - git diff <COMMIT SHA>~ <COMMIT SHA> (see the changes made between a set of commits)
-- git checkout . (do this in root. reverts all uncommited changes).
+- git checkout . (do this in root to revert all uncommited changes).
