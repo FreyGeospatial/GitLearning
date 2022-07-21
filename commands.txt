@@ -1,7 +1,7 @@
 Some useful commands:
 - git branch (current branch is starred)
 - git switch <branch> (alternative to git checkout <branch>)
-- git add, git commit -m "<message here>"
+- git add, git commit -m "<message here>" (to stage all files in the current directory, use git add .)
 - git commit --amend -m "<message here>" (amends most recent commit message, ?if not pushed to remote?)
 - git cherry-pick <SHA> (brings standalone commit from one branch into current branch. use -x to keep same commit hash This brings along commit message but not notes).
 - git config --list --show-origin --show-scope
@@ -12,3 +12,4 @@ Some useful commands:
 - git rebase -i <commit id> (interactive rebase. allows you to move, consolidate, reword, etc commits from remote or other branches. can bring in commits from elsewhere)
 - git clone <repo url>, git clone -b <branch> <repo url>
 - git diff <COMMIT SHA>~ <COMMIT SHA> (see the changes made between a set of commits)
+- git checkout . (do this in root. reverts all uncommited changes).
