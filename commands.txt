@@ -14,4 +14,4 @@ Some useful commands:
 - git diff <COMMIT SHA>~ <COMMIT SHA> (see the changes made between a set of commits)
 - git checkout . (do this in root to revert all uncommited changes).
 - git checkout <sha> (do this to view specific commit. remember to run `git switch -` to go back HEAD of branch)
-- git checkout -b <new_local_branch> origin/<remote_branch> (copies remote branch into a new local branch>)
+- git checkout -b <new_local_branch> origin/<remote_branch> (copies remote branch into a new local branch)
