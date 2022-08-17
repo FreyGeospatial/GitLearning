@@ -1,5 +1,6 @@
 Some useful commands:
 - git branch (current branch is starred)
+- git push -d origin <branchname> (delete remote branch)
 - git switch <branch> (alternative to git checkout <branch>)
 - git add, git commit -m "<message here>" (to stage all files in the current directory, use git add .)
 - git commit --amend -m "<message here>" (amends most recent commit message, ?if not pushed to remote?)
