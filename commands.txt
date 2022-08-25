@@ -1,5 +1,8 @@
 Some useful commands:
 - git branch (current branch is starred)
+- git branch <new branch name> (create new branch)
+- git branch -m <new branch name> (renames current branch locally)
+- git push origin -u <new branch name> (points current local branch to a new remote branch)
 - git push -d origin <branchname> (delete remote branch)
 - git switch <branch> (alternative to git checkout <branch>)
 - git add, git commit -m "<message here>" (to stage all files in the current directory, use git add .)
