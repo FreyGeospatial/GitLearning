@@ -20,3 +20,4 @@ Some useful commands:
 - git checkout . (do this in root to revert all uncommited changes).
 - git checkout <sha> (do this to view specific commit. remember to run `git switch -` to go back HEAD of branch)
 - git checkout -b <new_local_branch> origin/<remote_branch> (copies remote branch into a new local branch)
+- git merge <local branch_name> (merges specified branch into the current branch. if there are conflicts, resolve them and then "git add" + "git commit" changes")
