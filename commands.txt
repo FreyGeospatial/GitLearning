@@ -5,6 +5,7 @@ Some useful commands:
 - git push origin -u <new branch name> (points current local branch to a new remote branch)
 - git push -d origin <branchname> (delete remote branch)
 - git switch <branch> (alternative to git checkout <branch>)
+- git switch -c <new local branch> origin/<remote branch> (create local branch based off of remote, and switch to it. Useful if someone pushed commits to your remote branch and you want to review, but you don't want to pull changes just yet.. e.g., maybe it was a force push, and you dont want local edition overwritten)
 - git add, git commit -m "<message here>" (to stage all files in the current directory, use git add .)
 - git commit --amend -m "<message here>" (amends most recent commit message, ?if not pushed to remote?)
 - git cherry-pick <SHA> (brings standalone commit from one branch into current branch. use -x to keep same commit hash This brings along commit message but not notes).
