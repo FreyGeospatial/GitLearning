@@ -13,6 +13,7 @@ Some useful commands:
 - git log --graph --oneline --all
 - git reset <file> (unstage a file if not yet committed)
 - git reset --hard origin/<branch> (reset local branch to remote>
+- git revert --HEAD (undo/invert the last commit, but keeps the said commit in the history. The revert action will be stored as a new commit in the logs)
 - git stash, git stash apply, git stash pop (first, git add a file. then, git stash to "save" uncommited changes. switch branches and do what you gotta do. use git stash apply in desired branch to bring back (all?) stashed changes. git stash pop will bring back the latest stash and remove from stash list)
 - git rebase -i <commit id> (interactive rebase. allows you to move, consolidate, reword, etc commits from remote or other branches. can bring in commits from elsewhere)
 - git clone <repo url>, git clone -b <branch> <repo url>
